@@ -14,42 +14,31 @@
 </head>
 <body>
 
-  <h1 id="title">Welcome to the DOM Lab!</h1>
+  <h1 id="title">DOM Practice Lab</h1>
   <h2>Sample Subheading</h2>
-  <div id="background_color"><!--create this div-->
+  
   <p>This is paragraph one.</p>
-  <p class="highlight" id="color">This is paragraph two with highlight class.</p>
+  <p class="highlight">This is paragraph two with highlight class.</p>
   <p>This is paragraph three.</p>
 
-  <div class="active" id="container">
-    <p>Inside a div container</p>
+  <div id="container">
+    <p>Inside a div container.</p>
   </div>
-</div>
+
   <ul id="list">
     <li>List Item 1</li>
     <li>List Item 2</li>
     <li>List Item 3</li>
   </ul>
 
-  <img id="sampleImage" src="https://placehold.co/200x200" alt="Sample">
+  <img id="sampleImage" src="https://placehold.co/100x100" alt="Sample">
 
   <div id="output"></div>
 
   <button id="mainButton">Click Me</button>
   <input type="text" id="userInput" placeholder="Type something">
   <button id="displayButton">Display Text</button>
-<script>
-    document.getElementById("title").style.color="red"
-    document.getElementById("background_color").style.backgroundColor="lightgray"
-    document.getElementById("container").style.border ="solid black" 
-    document.getElementById("output").style.border ="solid black"
-    document.getElementById("title").style.fontSize="36px"
-    document.getElementById("color").style.color ="blue"
-    document.body.style.backgroundColor="lightblue"
-    let ele = document.createElement("div")
-    ele.textContent = "New Paragraph"
-    document.body.appendChild(ele)
-</script>
+
   <script src="script.js"></script>
 </body>
 </html>
